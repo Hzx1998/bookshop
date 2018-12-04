@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style type="text/css">
+span{
+   display:inline-block;
+   width:80px;
+}
+.text{
+    width:150px;
+    background-color:#fff;
+}
+.button{
+margin-left:50px;
+background-color:#eee;
+}
+
+
+</style>
+<title>用户登录</title>
+</head>
+<body>
+<div>没有账号<a href="./rsignup.html">‘注册账号’</a>获得1000元购书券！</div>
+<br>
+<form class='loginform' action="/bookShopping/ReaderLogin" method="get">
+<div>
+<span>用户名：</span><input class="text" type="text" name="username"><br>
+<span>密码:</span><input class="text" type="password" name="password"><br>
+<input class="button" type="submit" value="登录">
+<input class="button" type="reset" value="撤消">
+</div>
+</form>
+</body>
+</html>
